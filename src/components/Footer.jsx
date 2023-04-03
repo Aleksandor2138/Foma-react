@@ -4,7 +4,7 @@ import icons from '../img/icons.svg';
 import FooterSCSS from '../sass/components/footer.module.scss';
 import Container from '../sass/components/container.module.scss';
 import SocListSCSS from '../sass/components/soc-list.module.scss';
-export const footer = () => {
+export const Footer = () => {
   return (
     <footer className={FooterSCSS.footer}>
       <div className={`${Container.container}``${FooterSCSS.footer_container}`}>
