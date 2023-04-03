@@ -1,0 +1,22 @@
+.video {
+    padding: 40px 0;
+    @include desktop {
+        padding: 60px 0;
+    }
+    &-link {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 290px;
+        height: 180px;
+        @include mobile {
+            width: 450px;
+            height: 250px;}
+        @include tablet {
+            width: 738px;
+            height: 415px;}
+        @include desktop {
+            width: 1170px;
+            height: 660px;}
+    }
+}

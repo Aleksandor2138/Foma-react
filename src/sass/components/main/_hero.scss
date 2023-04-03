@@ -1,0 +1,275 @@
+.hero {
+    .container {
+        position: relative;
+        padding: 0;
+        height:400px;
+    }
+    @include desktop {
+        .container{
+            max-width: 1600px;
+            height: 600px;
+        }
+    }
+    &-slaides{
+        list-style:none;
+        z-index:-2;
+        height:100%;
+        background-color: #2f303a71;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        & li{
+            width:100%;
+            height:100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+            background-size:cover;
+            background-repeat:none;
+            opacity:0;
+            animation: anim_slides 20s linear infinite 0s;
+        }
+        & li:nth-child(1){
+            background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+            ), url(../img/hero/fon-foma-mob.jpg);
+            
+        }
+        & li:nth-child(2){
+            animation-delay: 5s;
+            background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+            ), url(../img/hero/fon-foma2-mob.jpg);
+        }
+        & li:nth-child(3){
+            animation-delay: 10s;
+            background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+            ), url(../img/hero/fon-foma3-mob.jpg);
+        }
+        & li:nth-child(4){
+            animation-delay: 15s;
+            background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+            ), url(../img/hero/fon-foma4-mob.jpg);
+        }
+        & p{
+            @include text-style(800, 35px, 1.3, 0.06em, var(--text-color-white));
+            text-align: center;
+            margin: 140px auto;
+        }
+        @include tablet{
+            & li:nth-child(1){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma-tab.jpg);
+                
+            }
+            & li:nth-child(2){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma2-tab.jpg);
+            }
+            & li:nth-child(3){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma3-tab.jpg);
+            }
+            & li:nth-child(4){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma4-tab.jpg);
+            }
+            & p{
+                @include text-style(800, 60px, 1.3, 0.05em, var(--text-color-white));
+                margin: 120px auto;
+            }
+        }
+        @include desktop {
+            & li:nth-child(1){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma-desk.jpg);
+                
+            }
+            & li:nth-child(2){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma2-desk.jpg);
+            }
+            & li:nth-child(3){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma3-desk.jpg);
+            }
+            & li:nth-child(4){
+                background-image:linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+                ), url(../img/hero/fon-foma4-desk.jpg);
+            }
+            & p{
+                @include text-style(800, 75px, 1.3, 0.05em, var(--text-color-white));
+                margin: 200px auto;
+            }
+        }
+    }
+        &-content{
+        position: absolute;
+        top: calc(50% + 30px) ;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+        &__soc {
+            & li {
+                animation: fade 5000ms linear infinite 0ms both;
+                backface-visibility: visible !important;
+                opacity: 0;
+            }
+            @include tablet {
+                & .soc__link {
+                    width: 42px;
+                    height: 42px;
+                }
+                & .soc__icon {
+                    width: 37px;
+                    height: 37px;
+                }
+            }
+        }
+    }
+@keyframes anim_slides {
+0% {opacity:0;}
+2% {opacity:1;}
+24% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+// Анимация текста и ссылок
+.flip-x{
+    animation: flipX 5000ms linear infinite 0ms both;
+    backface-visibility: visible !important;
+    opacity: 0;
+}
+@keyframes fade {
+0% {opacity:0;}
+10% {opacity:1;}
+24% {opacity:1;}
+90% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes flipX {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    18% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        animation-timing-function: ease-in;
+    }
+
+    22% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+
+    26% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    30% {
+        transform: perspective(400px);
+    }
+
+    70% {
+        transform: perspective(400px);
+    }
+
+    77% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        opacity: 1;
+    }
+
+    88% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -90deg);
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    18% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        animation-timing-function: ease-in;
+    }
+
+    22% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+
+    26% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    30% {
+        transform: perspective(400px);
+    }
+
+    70% {
+        transform: perspective(400px);
+    }
+
+    77% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        opacity: 1;
+    }
+
+    88% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -90deg);
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

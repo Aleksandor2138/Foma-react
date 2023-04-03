@@ -1,0 +1,64 @@
+.activity {
+    padding: 40px 0;
+    background-color: var(--section-color-grey);
+    @include desktop {
+        padding: 60px 0;}
+    &-list {
+        margin: 0 auto -30px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include tablet {
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: -30px;}
+        @include desktop{
+            flex-wrap: nowrap;}
+    }
+    &__item{
+        max-width: 450px;
+        margin-bottom: 30px;
+        background-color: #ffffff;
+        border-radius:  4px;
+        @include tablet {
+            width: calc(100% / 2 - 30px);
+            margin-left: 30px;}
+        @include desktop {
+            width: calc(100% / 4 - 30x);}
+    }
+    &__link{
+        display: flex;
+        flex-direction: column;  
+    }
+    &__title {
+        @include text-style ($fs: 16px, $col: #333333);
+        margin: 10px 0;
+        text-align: center;
+        flex-grow: 1;
+        @include desktop {
+            height: 37px;}
+    }
+    &__overlay {
+        position: relative;
+        overflow: hidden;
+    }
+    &__img{
+        margin: 0 auto;
+    } 
+    &__par{
+        @include text-style ();
+        text-align: justify;
+        position: absolute;
+        top: 0%;
+        height: 100%;
+        background-color: #fff5e1e6;
+        padding: 24px 24px;
+        overflow: auto;
+        transform: translatey(100%);
+        transition-property: transform;
+        transition: var(--main-transition);
+        .activity__item:hover & {
+            transform: translatey(0%);
+        }
+    }
+}

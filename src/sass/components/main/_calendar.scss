@@ -1,0 +1,51 @@
+.calendar {
+    padding: 40px 0;
+    &__heder{
+        @include text-style($fw:800, $fs:30px, $lh:1.2, $col:#333333);
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        @include desktop {
+            @include text-style($fw:800, $fs:40px, $lh:1.2, $col:#333333); 
+        }
+    }
+    &__par {
+        @include text-style($fw:400, $lh:1.7); 
+        z-index: 0;
+        text-align: justify;
+        margin-bottom: 15px;
+        @include mobile {
+            @include text-style($fw:400, $fs:20px, $lh:1.7);
+            font-size: 20px;
+        }
+        @include tablet {
+            text-align: center;
+        }
+    }
+    &__link {
+        color: #777777;
+        transition-property: color, border;
+        transition: var(--main-transition);
+        &:focus,
+        &:hover {
+            color: #333333;
+            border-bottom: 1px solid #333333;
+        }
+    }
+    &__img{
+        margin: 0 auto;
+        object-fit: cover;
+        max-width: 290px;
+        max-height: 290px;
+        @include mobile {
+            max-width: 450px;
+            max-height: 450px;}
+        @include tablet {
+            max-width: 738px;
+            max-height: 738px;}
+        @include desktop {
+            max-width: 1170px;
+            max-height:  1170px;}
+    }
+}

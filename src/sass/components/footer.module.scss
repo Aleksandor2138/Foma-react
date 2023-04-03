@@ -1,0 +1,79 @@
+@import "../var/mixins.scss";
+@import "../var/root.scss";
+.footer{
+    padding: 60px  0 0 0 ;
+    background-color: var(--section-color-footer);
+    &_container {
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        @include tablet{
+            flex-direction: row;
+            align-items: start;
+            justify-content: space-around
+        }
+    }
+    
+}
+.logoIcon {
+    fill: #ffffff99;
+    margin-bottom: 20px;
+}
+.contaсtList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    @include tablet{
+        align-items: start;
+        }
+}
+.contactItem {
+    &:not(:last-child) {
+        margin-bottom: 10px;}
+}
+.contaсtLink {
+    @include text-style($fw:400, $lh:1.71, $ls:0.03em, $col:#ffffff99);
+    font-style: normal;
+    fill: #ffffff99;
+    display: flex;
+    transition-property: color, fill, transform;
+    transition: var(--main-transition);
+    &:focus,
+    &:hover {
+        color: #ffffff;
+        fill: #ffffff;
+        transform: scale(1.1);
+    }
+    &_color {
+        color: #ffffff;
+        fill: #ffffff;
+    }
+}
+.contaсtIcon {
+    margin-right: 10px;
+}
+.footerSoc_text {
+    @include text-style($fw:700, $ls:0.03em, $col:#ffffff);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    @include desktop {
+        display: block;}
+}
+.copyright{
+    @include text-style($fw: 400, $fs:10px, $lh: 1.71,$ls: 0.03em, $col: var(--text-color-white));
+    font-style: normal;
+    height: 40px;
+    border-top:1px solid var(--text-color-white-transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include mobile {
+        @include text-style($fw: 400, $fs:13px, $lh: 1.71,$ls: 0.03em, $col: var(--text-color-white));
+    }
+    @include tablet{
+        @include text-style($fw: 400, $lh: 1.71,$ls: 0.03em, $col: var(--text-color-white));
+    }
+}

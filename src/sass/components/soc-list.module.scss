@@ -1,0 +1,32 @@
+@import "../var/mixins.scss";
+@import "../var/root.scss";
+
+.socList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socItem:not(:last-child) {
+  margin-right: 10px;
+}
+.socLink {
+  width: 35px;
+  height:35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+  transition-property: background, fill;
+  transition: var(--main-transition);
+  &:hover,
+  &:focus {
+    background-color: #fff5e1;
+    fill: #333333;
+  }
+}
+.socIink_fill {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}

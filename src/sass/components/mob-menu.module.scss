@@ -1,0 +1,125 @@
+@import "../var/mixins.scss";
+@import "../var/root.scss";
+
+.menuOpenBtn{
+    margin-left: auto;
+    background: #ffffff;
+    border: none;
+    transition-property: fill;
+    transition: var(--main-transition);
+    &:hover,
+    &:focus {
+        fill: #2196F3;}
+    @include desktop {
+        display: none;
+    }
+}
+.mobMenu{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 48px 0px;
+    margin: 0 auto;
+    overflow: auto;
+    @include tablet {
+        width: 50%;
+        right: 0;
+    }
+    &_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        align-items: flex-start;
+    }
+    @include desktop {
+        display: none;
+    }
+}
+.menuCloseBtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #ffffff;
+    border: none;
+    transition-property: fill;
+    transition: var(--main-transition);
+    &:hover,
+    &:focus {
+        fill: #2196F3;}
+}
+.mobNavItem {
+    transition-property: color;
+    transition: var(--main-transition);
+    &:hover,
+    &:focus {
+        color: #2196F3;}
+    &:not(last-child){
+        margin-bottom: 32px;}
+}
+.mobNavLink{
+    @include text-style ($fs:40px, $lh:1.175, $col:#333333cc  );
+    transition-property: color;
+    transition: var(--main-transition);
+    &:hover,
+    &:focus {
+        color: #2196F3;}
+}
+.mobContaсt{
+    &__bottom {
+        padding-bottom: 10px;
+    }
+    &__list{
+        margin-bottom: 64px;
+    }
+    &__item{
+        &:not(last-child){
+            margin-bottom: 32px;}
+    }
+    &__tel {
+        @include text-style ($fs:30px, $lh:1.175, $col:#333333cc );
+        margin-bottom: 32px;
+        @media screen and (min-width: 380px) {@include text-style ($fs:34px, $lh:1.175, $col:#2196F3 );}
+    }
+    &__email{
+        @include text-style ($fs:24px, $lh:1.165, $col:#333333cc ); 
+        transition-property: color;
+        transition: var(--main-transition);
+        &:hover,
+        &:focus {
+            color: #2196F3;}
+    }
+}
+.mobSoc{
+    &__list{
+        display: flex;
+        margin-left:-10px;
+            
+    }
+    &__item{
+    &:not(last-child) {
+        padding-right: 10px;
+        margin-left: 10px;
+        border-right:1px  solid rgba(33, 33, 33, 0.2);
+        }
+        &:nth-child(4) {
+            border: none;
+        }
+    }
+    &__link{
+        @include text-style ($fs:14px, $lh:1.22, $col:#2196F3 );
+        @media screen and (min-width: 380px){@include text-style ($fs:18px, $lh:1.22, $col:#2196F3)}
+    }
+}
+.no-scroll{
+    overflow: hidden;
+}
+.is-hidden {
+opacity: 0;
+pointer-events: none;
+visibility: hidden;
+}
