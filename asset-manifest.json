@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/Foma-react/static/css/main.7acaea2f.css",
-    "main.js": "/Foma-react/static/js/main.07d3183d.js",
+    "main.css": "/Foma-react/static/css/main.09459b75.css",
+    "main.js": "/Foma-react/static/js/main.7a235f45.js",
+    "static/css/666.c0fa5a72.chunk.css": "/Foma-react/static/css/666.c0fa5a72.chunk.css",
+    "static/js/666.98e0fb26.chunk.js": "/Foma-react/static/js/666.98e0fb26.chunk.js",
+    "static/js/99.0a387e83.chunk.js": "/Foma-react/static/js/99.0a387e83.chunk.js",
+    "static/js/467.256b9377.chunk.js": "/Foma-react/static/js/467.256b9377.chunk.js",
+    "static/js/163.fc5af583.chunk.js": "/Foma-react/static/js/163.fc5af583.chunk.js",
+    "static/media/icons.svg": "/Foma-react/static/media/icons.d6f412ddf41eb0c08a7d8bd795661a71.svg",
     "index.html": "/Foma-react/index.html",
-    "main.7acaea2f.css.map": "/Foma-react/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Foma-react/static/js/main.07d3183d.js.map"
+    "main.09459b75.css.map": "/Foma-react/static/css/main.09459b75.css.map",
+    "main.7a235f45.js.map": "/Foma-react/static/js/main.7a235f45.js.map",
+    "666.c0fa5a72.chunk.css.map": "/Foma-react/static/css/666.c0fa5a72.chunk.css.map",
+    "666.98e0fb26.chunk.js.map": "/Foma-react/static/js/666.98e0fb26.chunk.js.map",
+    "99.0a387e83.chunk.js.map": "/Foma-react/static/js/99.0a387e83.chunk.js.map",
+    "467.256b9377.chunk.js.map": "/Foma-react/static/js/467.256b9377.chunk.js.map",
+    "163.fc5af583.chunk.js.map": "/Foma-react/static/js/163.fc5af583.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.09459b75.css",
+    "static/js/main.7a235f45.js"
   ]
 }
