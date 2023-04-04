@@ -7,14 +7,14 @@ import SocListSCSS from '../sass/components/soc-list.module.scss';
 export const Footer = () => {
   return (
     <footer className={FooterSCSS.footer}>
-      <div className={`${Container.container}``${FooterSCSS.footer_container}`}>
+      <div className={`${Container.container} ${FooterSCSS.footer_container}`}>
         <svg className={FooterSCSS.logoIcon} width="150" height="150">
           <use href={icons + `#icon-foma`}></use>
         </svg>
         <ul className={FooterSCSS.contaсtList} id="contacts">
           <li className={FooterSCSS.contactItem}>
             <a
-              className={`${FooterSCSS.contaсtLink}``${FooterSCSS.contaсtLink_color}`}
+              className={`${FooterSCSS.contaсtLink} ${FooterSCSS.contaсtLink_color}`}
               href="https://goo.gl/maps/LT1MVRiGkyiVFvuW9"
             >
               <svg className={FooterSCSS.contaсtIcon} width="20" height="20">
@@ -49,7 +49,9 @@ export const Footer = () => {
             <li className={SocListSCSS.socItem}>
               <a
                 href="https://t.me/foma_kharkov_ua"
-                className={`${SocListSCSS.socLink}``${FooterSCSS.socLink_fill}`}
+                className={`${SocListSCSS.socLink} ${SocListSCSS.socLink_fill}`}
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 <svg className={SocListSCSS.socIcon} width="25" height="25">
                   <use href={icons + `#icon-telegram`}></use>
@@ -59,7 +61,9 @@ export const Footer = () => {
             <li className={SocListSCSS.socItem}>
               <a
                 href="https://www.facebook.com/fomakharkov/"
-                className={`${SocListSCSS.socLink}``${FooterSCSS.socLink_fill}`}
+                className={`${SocListSCSS.socLink} ${SocListSCSS.socLink_fill}`}
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 <svg className={SocListSCSS.socIcon} width="25" height="25">
                   <use href={icons + `#icon-facebook`}></use>
@@ -69,7 +73,9 @@ export const Footer = () => {
             <li className={SocListSCSS.socItem}>
               <a
                 href="https://www.youtube.com/channel/UCA_32A5iv1FfTkYNzfB-J1Q/featured"
-                className={`${SocListSCSS.socLink}``${FooterSCSS.socLink_fill}`}
+                className={`${SocListSCSS.socLink} ${SocListSCSS.socLink_fill}`}
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 <svg className={SocListSCSS.socIcon} width="25" height="25">
                   <use href={icons + `#icon-youtube`}></use>
@@ -79,7 +85,9 @@ export const Footer = () => {
             <li className={SocListSCSS.socItem}>
               <a
                 href="https://instagram.com/foma_kharkov_ua?igshid=YmMyMTA2M2Y="
-                className={`${SocListSCSS.socLink}``${FooterSCSS.socLink_fill}`}
+                className={`${SocListSCSS.socLink} ${SocListSCSS.socLink_fill}`}
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 <svg className={SocListSCSS.socIcon} width="25" height="25">
                   <use href={icons + `#icon-instagram`}></use>
