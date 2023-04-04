@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import icons from '../img/icons.svg';
 import FooterSCSS from '../sass/components/footer.module.scss';
 import Container from '../sass/components/container.module.scss';

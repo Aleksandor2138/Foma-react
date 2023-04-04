@@ -13,6 +13,9 @@ const PageNotFound = lazy(() => import('../pages/PageNotFound/PageNotFound'));
 const Main = lazy(() => import('../pages/main'));
 const Charity = lazy(() => import('../pages/charity'));
 const Coworking = lazy(() => import('../pages/coworking'));
+const LectureHall = lazy(() => import('../pages/lecturehall'));
+const Leisure = lazy(() => import('../pages/leisure'));
+const Events = lazy(() => import('../pages/events'));
 
 const App = () => {
   return (
@@ -21,6 +24,9 @@ const App = () => {
         <Route index element={<Main />} />
         <Route path="charity" element={<Charity />} />
         <Route path="coworking" element={<Coworking />} />
+        <Route path="lecturehall" element={<LectureHall />} />
+        <Route path="leisure" element={<Leisure />} />
+        <Route path="events" element={<Events />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

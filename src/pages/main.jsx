@@ -1,11 +1,14 @@
+import { About } from 'components/main/About';
+import { Hero } from '../components/main/Hero';
+
 // import PagesSCSS from './Pages.module.scss'
 
 const Main = () => {
-    return (
-        <main>
-            <section > main
-            </section>
-        </main>
-    )
-}
+  return (
+    <main>
+      <Hero />
+      <About />
+    </main>
+  );
+};
 export default Main;
