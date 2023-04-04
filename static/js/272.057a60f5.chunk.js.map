@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/272.057a60f5.chunk.js","mappings":"oHAOA,UAPe,WACb,OACE,2BACE,0CAGL,C","sources":["pages/events.jsx"],"sourcesContent":["const Events = () => {\n  return (\n    <main>\n      <section> Events</section>\n    </main>\n  );\n};\nexport default Events;"],"names":[],"sourceRoot":""}

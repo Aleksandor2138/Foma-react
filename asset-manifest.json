@@ -1,24 +1,44 @@
 {
   "files": {
     "main.css": "/Foma-react/static/css/main.90ac0a32.css",
-    "main.js": "/Foma-react/static/js/main.49f9580f.js",
+    "main.js": "/Foma-react/static/js/main.c4a3e21f.js",
     "static/css/666.c0fa5a72.chunk.css": "/Foma-react/static/css/666.c0fa5a72.chunk.css",
     "static/js/666.98e0fb26.chunk.js": "/Foma-react/static/js/666.98e0fb26.chunk.js",
-    "static/js/99.0a387e83.chunk.js": "/Foma-react/static/js/99.0a387e83.chunk.js",
+    "static/css/970.f4c10a31.chunk.css": "/Foma-react/static/css/970.f4c10a31.chunk.css",
+    "static/js/970.3ea02653.chunk.js": "/Foma-react/static/js/970.3ea02653.chunk.js",
     "static/js/467.256b9377.chunk.js": "/Foma-react/static/js/467.256b9377.chunk.js",
     "static/js/163.fc5af583.chunk.js": "/Foma-react/static/js/163.fc5af583.chunk.js",
+    "static/js/123.ca96d225.chunk.js": "/Foma-react/static/js/123.ca96d225.chunk.js",
+    "static/js/81.b0a4596d.chunk.js": "/Foma-react/static/js/81.b0a4596d.chunk.js",
+    "static/js/272.057a60f5.chunk.js": "/Foma-react/static/js/272.057a60f5.chunk.js",
+    "static/media/fon-foma3-desk.jpg": "/Foma-react/static/media/fon-foma3-desk.64e6952109adcfee495a.jpg",
+    "static/media/fon-foma2-desk.jpg": "/Foma-react/static/media/fon-foma2-desk.8c956c1f2ce8ade1f1b4.jpg",
+    "static/media/fon-foma-desk.jpg": "/Foma-react/static/media/fon-foma-desk.335fc56a6457929d457e.jpg",
+    "static/media/fon-foma4-desk.jpg": "/Foma-react/static/media/fon-foma4-desk.9322383c8d91bcdede0f.jpg",
+    "static/media/fon-foma3-tab.jpg": "/Foma-react/static/media/fon-foma3-tab.0c84a489f61d4f256d4f.jpg",
     "static/media/icons.svg": "/Foma-react/static/media/icons.d6f412ddf41eb0c08a7d8bd795661a71.svg",
+    "static/media/fon-foma2-tab.jpg": "/Foma-react/static/media/fon-foma2-tab.92a1b737c91543f28015.jpg",
+    "static/media/fon-foma-tab.jpg": "/Foma-react/static/media/fon-foma-tab.36c232987a0d8eb862ac.jpg",
+    "static/media/fon-foma3-mob.jpg": "/Foma-react/static/media/fon-foma3-mob.358602746ae4f9a4ce44.jpg",
+    "static/media/fon-foma4-tab.jpg": "/Foma-react/static/media/fon-foma4-tab.49da47ba07efbd5b57e5.jpg",
+    "static/media/fon-foma2-mob.jpg": "/Foma-react/static/media/fon-foma2-mob.54a632489ac98658c1b3.jpg",
+    "static/media/fon-foma-mob.jpg": "/Foma-react/static/media/fon-foma-mob.acc2799061cb15bc214d.jpg",
+    "static/media/fon-foma4-mob.jpg": "/Foma-react/static/media/fon-foma4-mob.e2083cc233d0ea2ef81d.jpg",
     "index.html": "/Foma-react/index.html",
     "main.90ac0a32.css.map": "/Foma-react/static/css/main.90ac0a32.css.map",
-    "main.49f9580f.js.map": "/Foma-react/static/js/main.49f9580f.js.map",
+    "main.c4a3e21f.js.map": "/Foma-react/static/js/main.c4a3e21f.js.map",
     "666.c0fa5a72.chunk.css.map": "/Foma-react/static/css/666.c0fa5a72.chunk.css.map",
     "666.98e0fb26.chunk.js.map": "/Foma-react/static/js/666.98e0fb26.chunk.js.map",
-    "99.0a387e83.chunk.js.map": "/Foma-react/static/js/99.0a387e83.chunk.js.map",
+    "970.f4c10a31.chunk.css.map": "/Foma-react/static/css/970.f4c10a31.chunk.css.map",
+    "970.3ea02653.chunk.js.map": "/Foma-react/static/js/970.3ea02653.chunk.js.map",
     "467.256b9377.chunk.js.map": "/Foma-react/static/js/467.256b9377.chunk.js.map",
-    "163.fc5af583.chunk.js.map": "/Foma-react/static/js/163.fc5af583.chunk.js.map"
+    "163.fc5af583.chunk.js.map": "/Foma-react/static/js/163.fc5af583.chunk.js.map",
+    "123.ca96d225.chunk.js.map": "/Foma-react/static/js/123.ca96d225.chunk.js.map",
+    "81.b0a4596d.chunk.js.map": "/Foma-react/static/js/81.b0a4596d.chunk.js.map",
+    "272.057a60f5.chunk.js.map": "/Foma-react/static/js/272.057a60f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90ac0a32.css",
-    "static/js/main.49f9580f.js"
+    "static/js/main.c4a3e21f.js"
   ]
 }
