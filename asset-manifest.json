@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Foma-react/static/css/main.90ac0a32.css",
-    "main.js": "/Foma-react/static/js/main.60be728f.js",
+    "main.js": "/Foma-react/static/js/main.cd37984f.js",
     "static/css/666.c0fa5a72.chunk.css": "/Foma-react/static/css/666.c0fa5a72.chunk.css",
     "static/js/666.12246a5c.chunk.js": "/Foma-react/static/js/666.12246a5c.chunk.js",
-    "static/css/441.1aa73fd4.chunk.css": "/Foma-react/static/css/441.1aa73fd4.chunk.css",
-    "static/js/441.e45e25dd.chunk.js": "/Foma-react/static/js/441.e45e25dd.chunk.js",
+    "static/css/610.6fcdfcbf.chunk.css": "/Foma-react/static/css/610.6fcdfcbf.chunk.css",
+    "static/js/610.8ce3735c.chunk.js": "/Foma-react/static/js/610.8ce3735c.chunk.js",
     "static/js/467.de127fb7.chunk.js": "/Foma-react/static/js/467.de127fb7.chunk.js",
     "static/js/163.c6dd9074.chunk.js": "/Foma-react/static/js/163.c6dd9074.chunk.js",
     "static/js/123.a0a3271c.chunk.js": "/Foma-react/static/js/123.a0a3271c.chunk.js",
@@ -15,6 +15,7 @@
     "static/js/557.04802330.chunk.js": "/Foma-react/static/js/557.04802330.chunk.js",
     "static/js/365.4cc901c1.chunk.js": "/Foma-react/static/js/365.4cc901c1.chunk.js",
     "static/js/311.b9165021.chunk.js": "/Foma-react/static/js/311.b9165021.chunk.js",
+    "static/js/981.d3699b58.chunk.js": "/Foma-react/static/js/981.d3699b58.chunk.js",
     "static/media/fon-foma3-desk.jpg": "/Foma-react/static/media/fon-foma3-desk.64e6952109adcfee495a.jpg",
     "static/media/fon-foma2-desk.jpg": "/Foma-react/static/media/fon-foma2-desk.8c956c1f2ce8ade1f1b4.jpg",
     "static/media/fon-foma-desk.jpg": "/Foma-react/static/media/fon-foma-desk.335fc56a6457929d457e.jpg",
@@ -34,6 +35,7 @@
     "static/media/excursion-tab.jpg": "/Foma-react/static/media/excursion-tab.c84db481e80032d26ec0.jpg",
     "static/media/convers-mob.jpg": "/Foma-react/static/media/convers-mob.346af91eaba8e4f3cd72.jpg",
     "static/media/deaf_tab.jpg": "/Foma-react/static/media/deaf_tab.504b767df36783c6a8e7.jpg",
+    "static/media/gal-min1.JPG": "/Foma-react/static/media/gal-min1.4edf0d441c8c9884c01d.JPG",
     "static/media/deaf.jpg": "/Foma-react/static/media/deaf.768220c64e9b497b0565.jpg",
     "static/media/excursion.jpg": "/Foma-react/static/media/excursion.2f49b31acbbeb9be8c1c.jpg",
     "static/media/convers-tab.jpg": "/Foma-react/static/media/convers-tab.a5eca78ac16be889eee2.jpg",
@@ -41,15 +43,16 @@
     "static/media/excursion-des.jpg": "/Foma-react/static/media/excursion-des.6407b69c958ed204633f.jpg",
     "static/media/theologian-mob.jpg": "/Foma-react/static/media/theologian-mob.241e64963497a3d2dbc0.jpg",
     "static/media/convers.jpg": "/Foma-react/static/media/convers.d68af11b8f1635b18e1c.jpg",
+    "static/media/gal-min2.jpg": "/Foma-react/static/media/gal-min2.4bc2bc95e39d909f10ab.jpg",
     "static/media/convers-desk.jpg": "/Foma-react/static/media/convers-desk.cf17a5d499a4f648f871.jpg",
     "static/media/theologian-tab.jpg": "/Foma-react/static/media/theologian-tab.671df8ca1f081adbe8ba.jpg",
     "index.html": "/Foma-react/index.html",
     "main.90ac0a32.css.map": "/Foma-react/static/css/main.90ac0a32.css.map",
-    "main.60be728f.js.map": "/Foma-react/static/js/main.60be728f.js.map",
+    "main.cd37984f.js.map": "/Foma-react/static/js/main.cd37984f.js.map",
     "666.c0fa5a72.chunk.css.map": "/Foma-react/static/css/666.c0fa5a72.chunk.css.map",
     "666.12246a5c.chunk.js.map": "/Foma-react/static/js/666.12246a5c.chunk.js.map",
-    "441.1aa73fd4.chunk.css.map": "/Foma-react/static/css/441.1aa73fd4.chunk.css.map",
-    "441.e45e25dd.chunk.js.map": "/Foma-react/static/js/441.e45e25dd.chunk.js.map",
+    "610.6fcdfcbf.chunk.css.map": "/Foma-react/static/css/610.6fcdfcbf.chunk.css.map",
+    "610.8ce3735c.chunk.js.map": "/Foma-react/static/js/610.8ce3735c.chunk.js.map",
     "467.de127fb7.chunk.js.map": "/Foma-react/static/js/467.de127fb7.chunk.js.map",
     "163.c6dd9074.chunk.js.map": "/Foma-react/static/js/163.c6dd9074.chunk.js.map",
     "123.a0a3271c.chunk.js.map": "/Foma-react/static/js/123.a0a3271c.chunk.js.map",
@@ -58,10 +61,11 @@
     "645.8ba246b5.chunk.js.map": "/Foma-react/static/js/645.8ba246b5.chunk.js.map",
     "557.04802330.chunk.js.map": "/Foma-react/static/js/557.04802330.chunk.js.map",
     "365.4cc901c1.chunk.js.map": "/Foma-react/static/js/365.4cc901c1.chunk.js.map",
-    "311.b9165021.chunk.js.map": "/Foma-react/static/js/311.b9165021.chunk.js.map"
+    "311.b9165021.chunk.js.map": "/Foma-react/static/js/311.b9165021.chunk.js.map",
+    "981.d3699b58.chunk.js.map": "/Foma-react/static/js/981.d3699b58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90ac0a32.css",
-    "static/js/main.60be728f.js"
+    "static/js/main.cd37984f.js"
   ]
 }
