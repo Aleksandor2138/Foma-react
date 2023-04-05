@@ -15,25 +15,25 @@ export const Activity = () => {
                 Сурдоперевод в Церкви
               </h2>
               <div className={ActivitySCSS.activity__overlay}>
-                {/* <picture>
+                <picture>
                   <source
-                    srcset="img/activity/deaf_desk.jpg"
+                    srcSet={require('../../img/activity/deaf_desk.jpg')}
                     media="(min-width:1280px )"
                   />
                   <source
-                    srcset="img/activity/deaf_tab.jpg"
+                    srcSet={require('../../img/activity/deaf_tab.jpg')}
                     media="(min-width:768px )"
                   />
                   <source
-                    srcset="img/activity/deaf_mob.jpg"
+                    srcSet={require('../../img/activity/deaf_mob.jpg')}
                     media="(min-width:480px )"
-                  /> */}
+                  />
                   <img
                     className={ActivitySCSS.activity__img}
-                    src="img/activity/deaf.jpg"
+                    src={require('../../img/activity/deaf.jpg')}
                     alt="Cурдоперевод"
                   />
-                {/* </picture> */}
+                </picture>
                 <p className={ActivitySCSS.activity__par}>
                   В Благовещенском соборе Харькова есть община глухих, для
                   которых совершается служба с сурдопереводом. О. Сергий Веклич
@@ -48,25 +48,25 @@ export const Activity = () => {
                 Организация экскурсий
               </h2>
               <div className={ActivitySCSS.activity__overlay}>
-                {/* <picture>
+                <picture>
                   <source
-                    srcset="img/activity/excursion-des.jpg"
+                    srcSet={require('../../img/activity/excursion-des.jpg')}
                     media="(min-width:1280px )"
                   />
                   <source
-                    srcset="img/activity/excursion-tab.jpg"
+                    srcSet={require('../../img/activity/excursion-tab.jpg')}
                     media="(min-width:768px )"
                   />
                   <source
-                    srcset="img/activity/excursion-mob.jpg"
+                    srcSet={require('../../img/activity/excursion-mob.jpg')}
                     media="(min-width:480px )"
-                  /> */}
-                  <img
-                    className={ActivitySCSS.activity__img}
-                    src="img/activity/excursion.jpg"
-                    alt="Экскурсии"
                   />
-                {/* </picture> */}
+                <img
+                  className={ActivitySCSS.activity__img}
+                    src={require('../../img/activity/excursion.jpg')}
+                  alt="Экскурсии"
+                />
+                </picture>
                 <p className={ActivitySCSS.activity__par}>
                   Мы готовы организовать для вашей группы экскурсии по
                   центральным храмам Харькова, по епархиальному
@@ -77,30 +77,33 @@ export const Activity = () => {
             </Link>
           </li>
           <li className={ActivitySCSS.activity__item}>
-            <Link to="/theologicalCourses " className={ActivitySCSS.activity__link}>
+            <Link
+              to="/theologicalCourses "
+              className={ActivitySCSS.activity__link}
+            >
               <h2 className={ActivitySCSS.activity__title}>
                 Богословско-педагогические курсы
               </h2>
               <div className={ActivitySCSS.activity__overlay}>
-                {/* <picture>
+                <picture>
                   <source
-                    srcset="img/activity/theologian-desk.jpg"
+                    srcSet={require('../../img/activity/theologian-desk.jpg')}
                     media="(min-width:1280px )"
                   />
                   <source
-                    srcset="img/activity/theologian-tab.jpg"
+                    srcSet={require('../../img/activity/theologian-tab.jpg')}
                     media="(min-width:768px )"
                   />
                   <source
-                    srcset="img/activity/theologian-mob.jpg"
+                    srcSet={require('../../img/activity/theologian-mob.jpg')}
                     media="(min-width:480px )"
-                  /> */}
-                  <img
-                    className={ActivitySCSS.activity__img}
-                    src="img/activity/theologian.jpg"
-                    alt="Богословские курсы"
                   />
-                {/* </picture> */}
+                <img
+                  className={ActivitySCSS.activity__img}
+                    src={require('../../img/activity/theologian.jpg')}
+                  alt="Богословские курсы"
+                />
+                </picture>
                 <p className={ActivitySCSS.activity__par}>
                   В нашем центре действуют Богословско-педагогические курсы. По
                   понедельникам и средам проходят лекции катехизаторского
@@ -114,30 +117,33 @@ export const Activity = () => {
             </Link>
           </li>
           <li className={ActivitySCSS.activity__item}>
-            <Link to="/conversationPriest " className={ActivitySCSS.activity__link}>
+            <Link
+              to="/conversationPriest "
+              className={ActivitySCSS.activity__link}
+            >
               <h2 className={ActivitySCSS.activity__title}>
                 Беседы с батюшкой
               </h2>
               <div className={ActivitySCSS.activity__overlay}>
-                {/* <picture>
+                <picture>
                   <source
-                    srcset="img/activity/convers-desk.jpg"
+                    srcSet={require('../../img/activity/convers-desk.jpg')}
                     media="(min-width:1280px )"
                   />
                   <source
-                    srcset="img/activity/convers-tab.jpg"
+                    srcSet={require('../../img/activity/convers-tab.jpg')}
                     media="(min-width:768px )"
                   />
                   <source
-                    srcset="img/activity/convers-mob.jpg"
+                    srcSet={require('../../img/activity/convers-mob.jpg')}
                     media="(min-width:480px )"
-                  /> */}
-                  <img
-                    className={ActivitySCSS.activity__img}
-                    src="img/activity/convers.jpg"
-                    alt="Беседы с батюшкой"
                   />
-                {/* </picture> */}
+                <img
+                  className={ActivitySCSS.activity__img}
+                    src={require('../../img/activity/convers.jpg')}
+                  alt="Беседы с батюшкой"
+                />
+                </picture>
                 <p className={ActivitySCSS.activity__par}>
                   На каком году брака нужно венчаться? Зачем человеку крёстные
                   родители на самом деле? Какое точное количество имён
