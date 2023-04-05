@@ -1,6 +1,9 @@
+@import "../../var/mixins.scss";
+@import "../../var/root.scss";
+
 .calendar {
     padding: 40px 0;
-    &__heder{
+    &__header{
         @include text-style($fw:800, $fs:30px, $lh:1.2, $col:#333333);
         text-align: center;
         position: relative;

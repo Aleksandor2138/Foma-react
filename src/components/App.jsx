@@ -16,6 +16,10 @@ const Coworking = lazy(() => import('../pages/coworking'));
 const LectureHall = lazy(() => import('../pages/lecturehall'));
 const Leisure = lazy(() => import('../pages/leisure'));
 const Events = lazy(() => import('../pages/events'));
+const SignLanguage = lazy(() => import('../pages/signLanguage '));
+const Excursion = lazy(() => import('../pages/excursion'));
+const TheologicalCourses = lazy(() => import('../pages/theologicalCourses'));
+const ConversationPriest = lazy(() => import('../pages/conversationPriest'));
 
 const App = () => {
   return (
@@ -27,6 +31,10 @@ const App = () => {
         <Route path="lecturehall" element={<LectureHall />} />
         <Route path="leisure" element={<Leisure />} />
         <Route path="events" element={<Events />} />
+        <Route path="signLanguage" element={<SignLanguage />} />
+        <Route path="excursion" element={<Excursion />} />
+        <Route path="theologicalCourses" element={<TheologicalCourses />} />
+        <Route path="conversationPriest" element={<ConversationPriest />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

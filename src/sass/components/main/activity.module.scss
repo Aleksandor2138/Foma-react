@@ -1,9 +1,12 @@
+@import "../../var/mixins.scss";
+@import "../../var/root.scss";
+
 .activity {
     padding: 40px 0;
     background-color: var(--section-color-grey);
     @include desktop {
         padding: 60px 0;}
-    &-list {
+    &__list {
         margin: 0 auto -30px auto;
         display: flex;
         flex-direction: column;

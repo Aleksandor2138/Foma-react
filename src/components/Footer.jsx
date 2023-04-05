@@ -97,7 +97,7 @@ export const Footer = () => {
         </div>
       </div>
       <p className={FooterSCSS.copyright}>
-        Copyright © 2022. Created by Alexandr Pavlenko.
+        Copyright © 2023. Created by Alexandr Pavlenko.
       </p>
     </footer>
   );
