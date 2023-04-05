@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Foma-react/static/css/main.90ac0a32.css",
-    "main.js": "/Foma-react/static/js/main.7b553833.js",
+    "main.js": "/Foma-react/static/js/main.60be728f.js",
     "static/css/666.c0fa5a72.chunk.css": "/Foma-react/static/css/666.c0fa5a72.chunk.css",
     "static/js/666.12246a5c.chunk.js": "/Foma-react/static/js/666.12246a5c.chunk.js",
     "static/css/441.1aa73fd4.chunk.css": "/Foma-react/static/css/441.1aa73fd4.chunk.css",
-    "static/js/441.73678d8b.chunk.js": "/Foma-react/static/js/441.73678d8b.chunk.js",
+    "static/js/441.e45e25dd.chunk.js": "/Foma-react/static/js/441.e45e25dd.chunk.js",
     "static/js/467.de127fb7.chunk.js": "/Foma-react/static/js/467.de127fb7.chunk.js",
     "static/js/163.c6dd9074.chunk.js": "/Foma-react/static/js/163.c6dd9074.chunk.js",
     "static/js/123.a0a3271c.chunk.js": "/Foma-react/static/js/123.a0a3271c.chunk.js",
@@ -28,14 +28,28 @@
     "static/media/fon-foma4-tab.jpg": "/Foma-react/static/media/fon-foma4-tab.49da47ba07efbd5b57e5.jpg",
     "static/media/fon-foma2-mob.jpg": "/Foma-react/static/media/fon-foma2-mob.54a632489ac98658c1b3.jpg",
     "static/media/fon-foma-mob.jpg": "/Foma-react/static/media/fon-foma-mob.acc2799061cb15bc214d.jpg",
+    "static/media/excursion-mob.jpg": "/Foma-react/static/media/excursion-mob.b76c2863b277bfeab0a0.jpg",
     "static/media/fon-foma4-mob.jpg": "/Foma-react/static/media/fon-foma4-mob.e2083cc233d0ea2ef81d.jpg",
+    "static/media/deaf_mob.jpg": "/Foma-react/static/media/deaf_mob.cc87854fda8650fdbfd0.jpg",
+    "static/media/excursion-tab.jpg": "/Foma-react/static/media/excursion-tab.c84db481e80032d26ec0.jpg",
+    "static/media/convers-mob.jpg": "/Foma-react/static/media/convers-mob.346af91eaba8e4f3cd72.jpg",
+    "static/media/deaf_tab.jpg": "/Foma-react/static/media/deaf_tab.504b767df36783c6a8e7.jpg",
+    "static/media/deaf.jpg": "/Foma-react/static/media/deaf.768220c64e9b497b0565.jpg",
+    "static/media/excursion.jpg": "/Foma-react/static/media/excursion.2f49b31acbbeb9be8c1c.jpg",
+    "static/media/convers-tab.jpg": "/Foma-react/static/media/convers-tab.a5eca78ac16be889eee2.jpg",
+    "static/media/deaf_desk.jpg": "/Foma-react/static/media/deaf_desk.241c9219738a3fc9f127.jpg",
+    "static/media/excursion-des.jpg": "/Foma-react/static/media/excursion-des.6407b69c958ed204633f.jpg",
+    "static/media/theologian-mob.jpg": "/Foma-react/static/media/theologian-mob.241e64963497a3d2dbc0.jpg",
+    "static/media/convers.jpg": "/Foma-react/static/media/convers.d68af11b8f1635b18e1c.jpg",
+    "static/media/convers-desk.jpg": "/Foma-react/static/media/convers-desk.cf17a5d499a4f648f871.jpg",
+    "static/media/theologian-tab.jpg": "/Foma-react/static/media/theologian-tab.671df8ca1f081adbe8ba.jpg",
     "index.html": "/Foma-react/index.html",
     "main.90ac0a32.css.map": "/Foma-react/static/css/main.90ac0a32.css.map",
-    "main.7b553833.js.map": "/Foma-react/static/js/main.7b553833.js.map",
+    "main.60be728f.js.map": "/Foma-react/static/js/main.60be728f.js.map",
     "666.c0fa5a72.chunk.css.map": "/Foma-react/static/css/666.c0fa5a72.chunk.css.map",
     "666.12246a5c.chunk.js.map": "/Foma-react/static/js/666.12246a5c.chunk.js.map",
     "441.1aa73fd4.chunk.css.map": "/Foma-react/static/css/441.1aa73fd4.chunk.css.map",
-    "441.73678d8b.chunk.js.map": "/Foma-react/static/js/441.73678d8b.chunk.js.map",
+    "441.e45e25dd.chunk.js.map": "/Foma-react/static/js/441.e45e25dd.chunk.js.map",
     "467.de127fb7.chunk.js.map": "/Foma-react/static/js/467.de127fb7.chunk.js.map",
     "163.c6dd9074.chunk.js.map": "/Foma-react/static/js/163.c6dd9074.chunk.js.map",
     "123.a0a3271c.chunk.js.map": "/Foma-react/static/js/123.a0a3271c.chunk.js.map",
@@ -48,6 +62,6 @@
   },
   "entrypoints": [
     "static/css/main.90ac0a32.css",
-    "static/js/main.7b553833.js"
+    "static/js/main.60be728f.js"
   ]
 }
