@@ -1,9 +1,12 @@
+@import "../../var/mixins.scss";
+@import "../../var/root.scss";
+
 .video {
     padding: 40px 0;
     @include desktop {
         padding: 60px 0;
     }
-    &-link {
+    &__link {
         margin: 0 auto;
         display: flex;
         justify-content: center;

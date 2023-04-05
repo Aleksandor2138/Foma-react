@@ -1,10 +1,13 @@
+@import "../../var/mixins.scss";
+@import "../../var/root.scss";
+
 .gallery {
     padding: 40px 0;
     background-color: var(--section-color-grey);
     @include desktop {
         padding: 60px 0;
     }
-    .container {
+    &__container {
         padding:0 10px;
         display: flex;
         align-items: center;
@@ -76,14 +79,14 @@
         &:hover {
             transform: scale(1.5);
         }
-        &--small{
+        &__small{
             width: 50px;
             height: 50px;
         }
         @include mobile {
             width: 150px;
             height: 150px;
-            &--small{
+            &__small{
                 width: 75px;
                 height: 75px;
             }
@@ -91,7 +94,7 @@
         @include tablet {
             width: 122px;
             height: 122px;
-            &--small{
+            &__small{
                 width: 61px;
                 height: 61px;
             }
@@ -99,7 +102,7 @@
         @include desktop {
             width: 206px;
             height: 206px;
-            &--small{
+            &__small{
                 width: 103px;
                 height: 103px;
             }
