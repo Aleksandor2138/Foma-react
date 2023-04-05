@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/123.a0a3271c.chunk.js","mappings":"qHAOA,UAPoB,WAClB,OACE,2BACE,gDAGL,C","sources":["pages/lecturehall.jsx"],"sourcesContent":["const LectureHall = () => {\n  return (\n    <main>\n      <section> Lecture Hall</section>\n    </main>\n  );\n};\nexport default LectureHall;\n"],"names":[],"sourceRoot":""}
