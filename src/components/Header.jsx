@@ -12,6 +12,31 @@ export const Header = click => {
     setMenu(!menu);
     event.stopPropagation();
   };
+
+  const clickAbout = () => {
+    window.location.href = '#about';
+  };
+
+  const clickCalendar = () => {
+    window.location.href = '#calendar';
+  };
+
+  const clickActivity = () => {
+    window.location.href = '#activity';
+  };
+
+  const clickVideo = () => {
+    window.location.href = '#video';
+  };
+
+  const clickGallery = () => {
+    window.location.href = '#gallery';
+  };
+
+  const clickContacts = () => {
+    window.location.href = '#contacts';
+  };
+
   return (
     <header className={HeaderSCSS.header}>
       <div className={`${Container.container} ${HeaderSCSS.header_container}`}>
@@ -23,17 +48,29 @@ export const Header = click => {
         <nav className={HeaderSCSS.nav}>
           <ul className={HeaderSCSS.nav__list}>
             <li className={HeaderSCSS.nav__item}>
-              <Link to="/#about" className={HeaderSCSS.nav__link}>
+              <Link
+                to="/#about"
+                onClick={clickAbout}
+                className={HeaderSCSS.nav__link}
+              >
                 О нас
               </Link>
             </li>
             <li className={HeaderSCSS.nav__item}>
-              <Link to="/#calendar" className={HeaderSCSS.nav__link}>
+              <Link
+                to="/#calendar"
+                onClick={clickCalendar}
+                className={HeaderSCSS.nav__link}
+              >
                 Календарь
               </Link>
             </li>
             <li className={HeaderSCSS.nav__item}>
-              <Link to="/#activity" className={HeaderSCSS.nav__link}>
+              <Link
+                to="/#activity"
+                onClick={clickActivity}
+                className={HeaderSCSS.nav__link}
+              >
                 Деятельность
               </Link>
             </li>
@@ -43,12 +80,20 @@ export const Header = click => {
               </Link>
             </li>
             <li className={HeaderSCSS.nav__item}>
-              <Link to="/#video" className={HeaderSCSS.nav__link}>
+              <Link
+                to="/#video"
+                onClick={clickVideo}
+                className={HeaderSCSS.nav__link}
+              >
                 Видео
               </Link>
             </li>
             <li className={HeaderSCSS.nav__item}>
-              <Link to="/#gallery" className={HeaderSCSS.nav__link}>
+              <Link
+                to="/#gallery"
+                onClick={clickGallery}
+                className={HeaderSCSS.nav__link}
+              >
                 Галерея
               </Link>
             </li>
@@ -58,7 +103,11 @@ export const Header = click => {
               </Link>
             </li>
             <li className={HeaderSCSS.nav__item}>
-              <Link to="/#contacts" className={HeaderSCSS.nav__link}>
+              <Link
+                to="/#contacts"
+                onClick={clickContacts}
+                className={HeaderSCSS.nav__link}
+              >
                 Контакты
               </Link>
             </li>
@@ -86,17 +135,29 @@ export const Header = click => {
               <nav>
                 <ul>
                   <li className={MobMenu.mobNavItem}>
-                    <Link to="/#about" className={MobMenu.mobNavLink}>
+                    <Link
+                      to="/#about"
+                      onClick={clickAbout}
+                      className={MobMenu.mobNavLink}
+                    >
                       О нас
                     </Link>
                   </li>
                   <li className={MobMenu.mobNavItem}>
-                    <Link to="/#calendar" className={MobMenu.mobNavLink}>
+                    <Link
+                      to="/#calendar"
+                      onClick={clickCalendar}
+                      className={MobMenu.mobNavLink}
+                    >
                       Календарь
                     </Link>
                   </li>
                   <li className={MobMenu.mobNavItem}>
-                    <Link to="/#activity" className={MobMenu.mobNavLink}>
+                    <Link
+                      to="/#activity"
+                      onClick={clickActivity}
+                      className={MobMenu.mobNavLink}
+                    >
                       Деятельность
                     </Link>
                   </li>
@@ -106,12 +167,20 @@ export const Header = click => {
                     </Link>
                   </li>
                   <li className={MobMenu.mobNavItem}>
-                    <Link to="/#video" className={MobMenu.mobNavLink}>
+                    <Link
+                      to="/#video"
+                      onClick={clickVideo}
+                      className={MobMenu.mobNavLink}
+                    >
                       Видео
                     </Link>
                   </li>
                   <li className={MobMenu.mobNavItem}>
-                    <Link to="/#gallery" className={MobMenu.mobNavLink}>
+                    <Link
+                      to="/#gallery"
+                      onClick={clickGallery}
+                      className={MobMenu.mobNavLink}
+                    >
                       Галерея
                     </Link>
                   </li>
@@ -121,7 +190,11 @@ export const Header = click => {
                     </Link>
                   </li>
                   <li className={MobMenu.mobNavItem}>
-                    <Link to="/#contacts" className={MobMenu.mobNavLink}>
+                    <Link
+                      to="/#contacts"
+                      onClick={clickContacts}
+                      className={MobMenu.mobNavLink}
+                    >
                       Контакты
                     </Link>
                   </li>
