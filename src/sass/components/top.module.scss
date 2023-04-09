@@ -1,5 +1,7 @@
-.top-btn{
-    display: none;
+@import "../var/mixins.scss";
+@import "../var/root.scss";
+
+.topBtn{
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -10,11 +12,11 @@
     color: inherit;
     background-color: transparent;
     cursor: pointer;
-    fill: #749bbf5e;
-    transition-property: fill;
+    color: #749bbf5e;
+    transition-property: color;
     transition: var(--main-transition);
     &:hover {
-        fill: #749bbf;
+        color: #749bbf;
     }
 }
 
