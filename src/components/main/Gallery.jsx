@@ -15,10 +15,6 @@ export const Gallery = () => {
       slide: number,
     });
   };
-  // const [toggler, setToggler] = useState(false);
-  // const clickOpen = () => {
-  //   setToggler(!toggler);
-  // }
   return (
     <section className={GallerySCSS.gallery} id="gallery">
       <div
