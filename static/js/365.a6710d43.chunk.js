@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfoma=self.webpackChunkfoma||[]).push([[365],{2365:function(e,n,s){s.r(n);var c=s(3329);n.default=function(){return(0,c.jsx)("main",{children:(0,c.jsx)("section",{children:" Theological Courses"})})}}}]);
+//# sourceMappingURL=365.a6710d43.chunk.js.map

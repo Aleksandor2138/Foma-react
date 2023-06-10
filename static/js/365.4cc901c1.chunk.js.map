@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/365.4cc901c1.chunk.js","mappings":"qHAOA,UAP2B,WACzB,OACE,2BACE,uDAGL,C","sources":["pages/theologicalCourses.jsx"],"sourcesContent":["const TheologicalCourses = () => {\n  return (\n    <main>\n      <section> Theological Courses</section>\n    </main>\n  );\n};\nexport default TheologicalCourses;\n"],"names":[],"sourceRoot":""}

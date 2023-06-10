@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/645.231b2e05.chunk.js","mappings":"qHAOA,UAPqB,WACnB,OACE,2BACE,iDAGL,C","sources":["pages/signLanguage .jsx"],"sourcesContent":["const SignLanguage = () => {\n  return (\n    <main>\n      <section> Sign Language</section>\n    </main>\n  );\n};\nexport default SignLanguage;\n"],"names":[],"sourceRoot":""}

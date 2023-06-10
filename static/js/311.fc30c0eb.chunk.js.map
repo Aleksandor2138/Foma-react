@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/311.fc30c0eb.chunk.js","mappings":"sHAOA,UAP2B,WACzB,OACE,2BACE,uDAGL,C","sources":["pages/conversationPriest.jsx"],"sourcesContent":["const ConversationPriest = () => {\n  return (\n    <main>\n      <section> Conversation Priest</section>\n    </main>\n  );\n};\nexport default ConversationPriest;\n"],"names":[],"sourceRoot":""}

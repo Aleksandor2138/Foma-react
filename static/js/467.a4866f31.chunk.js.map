@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/467.a4866f31.chunk.js","mappings":"sHAOA,UAPgB,WACd,OACE,2BACE,2CAGL,C","sources":["pages/charity.jsx"],"sourcesContent":["const Charity = () => {\n  return (\n    <main>\n      <section> Charity</section>\n    </main>\n  );\n};\nexport default Charity;\n"],"names":[],"sourceRoot":""}

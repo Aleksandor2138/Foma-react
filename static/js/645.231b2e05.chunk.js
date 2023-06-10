@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfoma=self.webpackChunkfoma||[]).push([[645],{645:function(n,e,a){a.r(e);var u=a(3329);e.default=function(){return(0,u.jsx)("main",{children:(0,u.jsx)("section",{children:" Sign Language"})})}}}]);
+//# sourceMappingURL=645.231b2e05.chunk.js.map
