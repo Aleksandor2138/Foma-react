@@ -7,7 +7,7 @@ import './index.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="Foma-react">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>
