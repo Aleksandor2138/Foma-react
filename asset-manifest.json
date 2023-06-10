@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Foma-react/static/css/main.bc69a146.css",
-    "main.js": "/Foma-react/static/js/main.57db29ee.js",
+    "main.js": "/Foma-react/static/js/main.79c30606.js",
     "static/css/666.c0fa5a72.chunk.css": "/Foma-react/static/css/666.c0fa5a72.chunk.css",
     "static/js/666.12246a5c.chunk.js": "/Foma-react/static/js/666.12246a5c.chunk.js",
     "static/css/49.2d34cc9a.chunk.css": "/Foma-react/static/css/49.2d34cc9a.chunk.css",
@@ -82,7 +82,7 @@
     "static/media/theologian-tab.jpg": "/Foma-react/static/media/theologian-tab.671df8ca1f081adbe8ba.jpg",
     "index.html": "/Foma-react/index.html",
     "main.bc69a146.css.map": "/Foma-react/static/css/main.bc69a146.css.map",
-    "main.57db29ee.js.map": "/Foma-react/static/js/main.57db29ee.js.map",
+    "main.79c30606.js.map": "/Foma-react/static/js/main.79c30606.js.map",
     "666.c0fa5a72.chunk.css.map": "/Foma-react/static/css/666.c0fa5a72.chunk.css.map",
     "666.12246a5c.chunk.js.map": "/Foma-react/static/js/666.12246a5c.chunk.js.map",
     "49.2d34cc9a.chunk.css.map": "/Foma-react/static/css/49.2d34cc9a.chunk.css.map",
@@ -100,6 +100,6 @@
   },
   "entrypoints": [
     "static/css/main.bc69a146.css",
-    "static/js/main.57db29ee.js"
+    "static/js/main.79c30606.js"
   ]
 }
